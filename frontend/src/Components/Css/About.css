@@ -1,0 +1,34 @@
+.AboutMain {
+    padding: 2rem;
+    background-color: #f4f4f9;
+  }
+  
+  .AboutSection {
+
+    max-width: 800px;
+    margin: 72px auto;
+    padding: 1rem;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .AboutContent {
+    text-align: center;
+  }
+  
+  .AboutContent div{
+    padding:  2% 5%;
+  }
+  .AboutContent h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .AboutContent p {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.6;
+  }
+  

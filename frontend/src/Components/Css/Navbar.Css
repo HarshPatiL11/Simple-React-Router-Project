@@ -1,0 +1,55 @@
+/* Navbar.css */
+
+nav {
+    width: 100%;
+    background-color: gray;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+    box-sizing: border-box;
+  }
+  
+  .Nav-Section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+  }
+  
+  .Nav-LeftDiv {
+    flex: 1;
+  }
+  
+  .Nav-LeftDiv h3 {
+    margin: 0;
+  }
+  
+  .Nav-RightDiv {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .Nav-RightDiv ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .Nav-RightDiv li {
+    margin-left: 20px;
+  }
+  
+  .Nav-RightDiv li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .Nav-RightDiv a:hover {
+    text-decoration: underline!important;
+    color: red;
+  }
+  
